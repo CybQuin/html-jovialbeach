@@ -1,3 +1,4 @@
-# html-jovialbeach
-# This is the html code of jovial beach. It is a pure html code with no css or javascript. It is the initial stage of the website.
-# NB: It is purely for practice purposes only and might contain bugges.
+# jovialbeach website.
+# This contains the production code for the Jovial Beach Website. It will contain HTML code, CSS code and Javascript code.
+# NB: It is for practice purposes only and might contain bugs.
+# Other scripts may be added for practice purposes.
