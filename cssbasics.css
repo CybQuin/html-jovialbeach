@@ -1,0 +1,83 @@
+.fixed{
+    background-color: #f5f5f4;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: -19px;
+    left:0px;
+    font-size: 14pt;
+}
+
+#title{
+    color: #deb841;
+    background-color: #1f456e;
+    font-family: Georgia;
+    font-size: 48pt;
+    text-align: center;
+    padding: 180px;
+    margin-bottom: 4%;
+    
+}
+
+p{
+    text-align: center;
+    font-size: 12pt;
+    font-family: arial;
+}
+
+.welcome{
+    background-color: #1f456e;
+    color: white;
+    padding: 20px;
+    font-size: 16pt;
+    font-style: italic;
+    margin-top: -200px;
+    width: 95.5%;
+    font-family: serif;
+}
+h2 {
+    font-family: arial;
+    font-size: 24pt;
+    text-align: center;
+ 
+}
+.review{
+    color: black;
+    -webkit-text-stroke: rgba(0, 0, 0, 0.966);
+    font-size: 30pt;
+}
+a{
+    background-color: #1f456ed3;
+    color: white;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 50%);
+    padding: 10px;
+    align-items: center;
+}
+blockquote{
+    background-color: #f5f5f4;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 50%);
+    color: rgba(0, 0, 0, 0.966);
+    border: 2px;
+    border-color: black;
+    padding: 20px;
+    -webkit-box-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family: arial;
+    font-size: 32pt;
+
+}
+.bye {
+    color:#deb841;
+    font-size: 8pt;
+}
+.gallery{
+    font-size: 32pt;
+}
+address{
+    text-align: center;
+    font-style: italic;
+}
