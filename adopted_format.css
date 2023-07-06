@@ -1,0 +1,204 @@
+body {
+    background-color: #0a2261;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(rgb(8, 81, 105), #071b4e);
+}
+
+
+
+.fixed {
+font-family: 'Courier New', Courier, monospace;
+font-size: 16pt;
+text-align: center;
+padding: 40px;
+width:auto;
+color: white;
+background-color: rgba( 128, 128, 128, 30%);
+text-transform: capitalize;
+position: fixed;
+margin-top: -9px;
+margin-left: -10px;
+position: relative;
+z-index: -13px;
+text-decoration:dotted;
+text-shadow: 1px 2px 1px rgba(0, 0, 0, 60%);
+background-attachment: fixed;
+}
+
+.Header{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    text-align: center;
+    font-style: oblique;
+    font-size: 50pt;
+    background-image: url(beach.jpg);
+    /*filter: saturate(100%);*/
+    width:auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 270px;
+    margin-top: -150px;
+    margin-left: -10px;
+    max-height: 100%;
+    color: lightblue;
+    height: 60%;
+    border-radius: 2px;
+    border-color: white;
+}
+
+.subheader{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    text-align: center;
+    padding: 231px;
+    background-color: rgba(0, 0, 0, 50%);
+    color: white;
+    margin-top: -530px;
+    margin-left: -23px;
+    
+}
+
+.dropup1{
+    background-color: rgba(0, 0, 0, 20%);
+    color: white;
+    padding: 14px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    justify-items: center;
+}
+
+.dropup1:hover, .dropup1:focus {
+    background-color: #000000;
+
+}
+
+.dropup{
+    position: relative;
+    display: inline-block;
+
+
+}
+.dropup1:hover .dropup-content{
+    display: block;
+
+}
+
+.dropup-content{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style-position: outside;
+    overflow: hidden;
+
+}
+
+.dropup-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropup:hover, .dropup:focus {
+    background-color: #000000;
+    transition: 0.5s;
+    
+
+}
+
+.dropup{
+    position: relative;
+    display: inline-block;
+    margin-top: -110px;
+    margin-right: 129px;
+    vertical-align: middle;
+    justify-content: center;
+
+    
+    
+
+}
+
+.dropup-content a:hover {
+    background-color: rgba(0, 0, 0, 20%);
+    transition: 0.5s;
+
+ }
+
+ .dropup:hover .dropup-content{
+    display: block;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
+ .dropup:hover .dropup1{
+    background-color: #deb841;
+ }
+
+ @media  screen and (max-width: 500px) {
+    .dropup a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    
+ }
+
+ .second{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    text-indent: 100px;
+    text-align: center;
+    animation: text 2s ease-in linear;
+ }
+
+ .explan{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-right: -36px;
+ }
+
+ .photos{
+    /*display: flex;*/
+    padding: 1px;
+    /*width: 20%;*/
+    justify-content: space-between;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 50%);
+    border-radius: 29px;
+    background-repeat: no-repeat;
+    flex: 33.33%;
+    display:flex;
+    width: 320px;
+    margin:60px;
+    float:right; 
+
+ }
+
+ .thrd{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+ }
+
+ .forth{
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+    margin-top: -12px;
+    font-style: italic;
+ }
+
