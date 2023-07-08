@@ -67,6 +67,7 @@ background-attachment: fixed;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
     justify-items: center;
+    text-decoration: none;
 }
 
 .dropup1:hover, .dropup1:focus {
@@ -77,6 +78,7 @@ background-attachment: fixed;
 .dropup{
     position: relative;
     display: inline-block;
+    text-decoration: none;
 
 
 }
@@ -94,6 +96,7 @@ background-attachment: fixed;
     z-index: 1;
     list-style-position: outside;
     overflow: hidden;
+    text-decoration: none;
 
 }
 
@@ -119,10 +122,16 @@ background-attachment: fixed;
     margin-right: 129px;
     vertical-align: middle;
     justify-content: center;
+    text-decoration: none;
 
     
     
 
+}
+
+.hh{
+    color: white;
+    text-decoration: none;
 }
 
 .dropup-content a:hover {
@@ -153,7 +162,7 @@ background-attachment: fixed;
 
  .second{
     text-align: center;
-    font-size: 32px;
+    font-size: 52px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
@@ -162,13 +171,79 @@ background-attachment: fixed;
     animation: text 2s ease-in linear;
  }
 
+ .wrapper{
+    display: inline-flexbox;
+
+ }
+
+ .wrapper .static-txt{
+    font-size: 52px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    text-indent: -4px;
+    overflow: hidden;
+
+ }
+ .wrapper .dynamic-txts{
+    margin-left: 90px;
+    line-height: 120px;
+    color: #deb841;
+    overflow: hidden;
+    height: 100%;
+    text-align: center;
+
+ }
+
+.dynamic-txts li{
+    list-style: none;
+    font-size: 52px;
+    color:#deb841;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bolder;
+    top: 0;
+    position: relative;
+    animation: slide 2.5s steps(3) infinite;
+    text-indent: -150px;
+    margin-top: -10px;
+    overflow: hidden;
+
+
+ }
+ .dynamic-txts li span{
+    position: relative;
+ }
+
+ .dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width:100%;
+    animation: slide 1.5s steps(30) infinite;
+    margin-left: 500px;
+    overflow: hidden;
+
+ }
+
+ @keyframes slide{
+    100%{
+        top: -360px;
+       
+    }
+ }
+
+
  .explan{
     text-align: center;
     font-style: italic;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    margin-right: -36px;
+    margin-right: -16px;
  }
 
  .photos{
@@ -186,9 +261,24 @@ background-attachment: fixed;
     float:right; 
 
  }
+ .needs{
+    /*display: flex;*/
+    padding: 1px;
+    /*width: 20%;*/
+    justify-content: space-between;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 50%);
+    border-radius: 29px;
+    background-repeat: no-repeat;
+    flex: 33.33%;
+    display:flex;
+    margin:60px;
+    float:right; 
+    width: 320px;
+    height: 165px;
+ }
 
  .thrd{
-    font-size: 32px;
+    font-size: 46px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-align: center;
@@ -200,5 +290,249 @@ background-attachment: fixed;
     color: white;
     margin-top: -12px;
     font-style: italic;
+    margin-right: 14px;
  }
+
+ .offer{
+    font-size: 46px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 90px;
+    width: 1200px, 50px;
+    max-height: 100%;
+   
+ }
+
+ .offer1{
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 90px;
+    width: 1200px, 50px;
+    max-height: 100%;
+    margin-top: -179px;
+    margin-bottom: 37px;
+ }
+
+ .places1{
+    background-color: #deb841;
+    color: black;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 13px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold ;
+    margin-right: 37px; 
+    
+
+}
+
+.offer2{
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 90px;
+    width: 1200px, 50px;
+    max-height: 100%;
+    margin-top: -190px;
+    margin-bottom: -28px;
+}
+
+.places9
+{
+        background-color: #deb841;
+        color: black;
+        padding: 14px;
+        font-size: 18px;
+        border-radius: 13px;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold ;
+        margin-right: 37px; 
+        margin-top: -21px;
+    
+}
+
+.offer3{
+    font-size: 46px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 90px;
+    width: 1200px, 50px;
+    max-height: 100%;
+   
+ } 
+
+.profs{
+    padding: 1px;
+    /*width: 20%;*/
+    justify-content: space-between;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 50%);
+    border-radius: 120px;
+    background-repeat: no-repeat;
+    flex: 33.33%;
+    display:flex;
+    width: 200px;
+    margin:60px;
+    margin-top: -50px;
+    margin-right: 200px;
+    float:right; 
+}
+
+.profname{
+    font-family: cursive;
+    font-size: 32px;
+    margin-left: 360px;
+}
+
+.descr{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    margin-left: 360px;
+}
+
+.profs1{
+    padding: 1px;
+    /*width: 20%;*/
+    justify-content:space-around;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 50%);
+    border-radius: 120px;
+    background-repeat: no-repeat;
+    flex: 33.33%;
+    display:flex;
+    width: 230px;
+    margin:60px;
+    margin-top: 110px;
+    margin-right: -300px;
+    float:left; 
+}
+
+.profname1{
+    font-family: cursive;
+    font-size: 32px;
+    margin-top: 150px;
+    margin-left: -100px;
+}
+
+.descr1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    margin-top: -10px;
+    margin-left: -70px;
+}
+
+.profs2{
+    padding: 1px;
+    /*width: 20%;*/
+    justify-content: space-between;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 50%);
+    border-radius: 120px;
+    background-repeat: no-repeat;
+    flex: 33.33%;
+    display:flex;
+    width: 200px;
+    margin:60px;
+    margin-top: 100px;
+    margin-right: 200px;
+    float:right; 
+}
+
+.profname2{
+    font-family: cursive;
+    font-size: 32px;
+    margin-top: 150px;
+    margin-left: 360px;
+}
+
+.descr2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    margin-top: -10px;
+    margin-left: 360px;
+}
+
+.profs3{
+    padding: 1px;
+    /*width: 20%;*/
+    justify-content:space-around;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 50%);
+    border-radius: 120px;
+    background-repeat: no-repeat;
+    flex: 33.33%;
+    display:flex;
+    width: 230px;
+    margin:60px;
+    margin-top: 110px;
+    margin-right: -300px;
+    float:left; 
+}
+
+.profname3{
+    font-family: cursive;
+    font-size: 32px;
+    margin-top: 140px;
+    margin-left: 360px;
+}
+
+.descr3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16pt;
+    margin-top: 40px;
+    margin-left: -70px
+}
+
+.places2{
+    background-color: #deb841;
+    color: black;
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 90px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold ;
+    margin-right: 37px; 
+    
+
+}
+
+.ReadMore{
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 90px;
+    width: 1200px, 50px;
+    max-height: 100%;
+    margin-top: 7px;
+    margin-bottom: -18px;
+    margin-right: 90px;
+}
+
+.thrd1{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.profs4{
+    /*width: 20%;*/
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 50%);
+    border-radius: 200%;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    margin-top: 290px;
+    margin-left: 360px;
+    float:left; 
+    
+}
+
+
 
